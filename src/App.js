@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Admin from './components/Admin';
 
 function App() {
   return (
     <>
       <div>
-        <button className='btn btn-danger'>Delete</button>
+        <Admin />
       </div>
     </>
   );
