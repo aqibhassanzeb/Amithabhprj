@@ -1,0 +1,28 @@
+.bothbtnExpecteddiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 35px;
+    border-radius: 20px;
+    align-items: center;
+}
+.bothbtnExpected{
+    height: fit-content;
+    border-radius: 20px;
+}
+.inputdateexpected{
+    height: 35px;
+    color: blue;
+}
+.tableheadingexpected{
+    color: white;
+    background-color: rgb(31, 31, 150);
+}
+.radiovaluetypeexpected{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kibtnexpected{
+    background-color: rgb(218, 218, 168);
+}

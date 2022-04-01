@@ -1,13 +1,13 @@
-import './App.css';
-import Admin from './components/Admin';
-import Routeclass from './Routeclass';
+import ValueExpected from "./clientprj/ValueExpected";
+
+
 
 function App() {
   return (
     <>
-   
-   <Routeclass/>
-  
+
+      <ValueExpected />
+
     </>
   );
 }

@@ -4,7 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/src/assets
+/src/components
+/src/redux
+/Firebase
+/Routeclass.js
+/ProtectedRoutes.js
 # testing
 /coverage
 
