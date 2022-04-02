@@ -26,3 +26,10 @@
 .kibtnexpected{
     background-color: rgb(218, 218, 168);
 }
+.threebtnexpectedvaluediv{
+    display: flex;
+    justify-content: center;
+}
+.threebtnexpectedvalue{
+    margin: 10px;
+}

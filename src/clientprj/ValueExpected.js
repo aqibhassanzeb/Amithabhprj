@@ -2,7 +2,7 @@ import React from 'react'
 import { Form, Table } from 'react-bootstrap'
 import './ValueExpected.css'
 import { BiMessageSquareAdd } from 'react-icons/bi';
-
+import { AiOutlineShoppingCart } from 'react-icons/ai'
 const ValueExpected = () => {
     return (
         <div>
@@ -109,7 +109,7 @@ const ValueExpected = () => {
                                 </td>
                                 <td className='d-flex'>
                                     <button className='kibtnexpected'>KI</button>
-                                    <input type='text' style={{ marginLeft: '20px' }} />
+                                    <input type='text' style={{ marginLeft: '10px' }} />
                                 </td>
                             </tr>
                             <tr>
@@ -155,6 +155,14 @@ const ValueExpected = () => {
                             </tr>
                         </tbody>
                     </Table>
+                </div>
+                <div className='row'>
+                    <div className='threebtnexpectedvaluediv'>
+                        <button className='btn btn-outline-dark threebtnexpectedvalue'>CANCEL</button>
+                        <button className='btn btn-outline-primary threebtnexpectedvalue'>
+                            <AiOutlineShoppingCart /> VIEW CART</button>
+                        <button className='btn btn-outline-primary threebtnexpectedvalue'>SAVE</button>
+                    </div>
                 </div>
 
             </div>
